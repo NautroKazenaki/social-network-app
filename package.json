@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://nautrokazenaki.github.io/social-network-app",
+  "homepage": "https://nautrokazenaki.github.io/social-network-app/",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^11.2.7",
