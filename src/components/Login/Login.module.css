@@ -1,0 +1,85 @@
+form{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    left: 40%;
+    top:40%;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.input{
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+    background: lightblue;
+    text-align: center;
+}
+.input[type = 'userName'], .input[type = 'password'] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid yellow;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.input[type = 'userName']:focus, .input[type = 'password']:focus{
+    width: 280px;
+    border-color: green;
+}
+.checkboxWrapper{
+    display: inline;
+    width: 100px;
+}
+.checkbox{
+    border: 0;
+    background: none;
+    display: block;
+    padding: 14px 10px;
+    transition: 0.25s;
+    top:43.5%;
+    left:43.5%;
+    position: relative;
+    display: inline;
+    border: 4px solid red;
+}
+h4{
+    left: 40%;
+    top:40%;
+    position: relative;
+    color: black;
+    font-weight: 500;
+    display: inline;
+}
+.button[type='submitButton'] {
+    border: 0;
+    background: none;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    position: relative;
+    top:36.5%;
+    left:36.5%;
+    cursor: pointer;
+}
+.button[type='submitButton']:hover{
+    background: green;
+}
