@@ -1,3 +1,15 @@
 .avatarAndDescription{
     padding: 10px;
 }
+.mainPhoto{
+    max-width: 200px;
+}
+.contact{
+    padding-left: 10px;
+}
+.formSummaryError{
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+    text-align: justify;
+}
