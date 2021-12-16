@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/social-network-app/static/css/main.29690f7d.chunk.css",
-    "main.js": "/social-network-app/static/js/main.77c1dd41.chunk.js",
-    "main.js.map": "/social-network-app/static/js/main.77c1dd41.chunk.js.map",
-    "runtime-main.js": "/social-network-app/static/js/runtime-main.9746a574.js",
-    "runtime-main.js.map": "/social-network-app/static/js/runtime-main.9746a574.js.map",
-    "static/js/2.639d2bd0.chunk.js": "/social-network-app/static/js/2.639d2bd0.chunk.js",
-    "static/js/2.639d2bd0.chunk.js.map": "/social-network-app/static/js/2.639d2bd0.chunk.js.map",
-    "static/css/3.356c5c55.chunk.css": "/social-network-app/static/css/3.356c5c55.chunk.css",
-    "static/js/3.1ab258a5.chunk.js": "/social-network-app/static/js/3.1ab258a5.chunk.js",
-    "static/js/3.1ab258a5.chunk.js.map": "/social-network-app/static/js/3.1ab258a5.chunk.js.map",
-    "static/css/4.a7c36d65.chunk.css": "/social-network-app/static/css/4.a7c36d65.chunk.css",
-    "static/js/4.0a33d075.chunk.js": "/social-network-app/static/js/4.0a33d075.chunk.js",
-    "static/js/4.0a33d075.chunk.js.map": "/social-network-app/static/js/4.0a33d075.chunk.js.map",
-    "static/js/5.37c142e1.chunk.js": "/social-network-app/static/js/5.37c142e1.chunk.js",
-    "static/js/5.37c142e1.chunk.js.map": "/social-network-app/static/js/5.37c142e1.chunk.js.map",
+    "main.js": "/social-network-app/static/js/main.6aaffb66.chunk.js",
+    "main.js.map": "/social-network-app/static/js/main.6aaffb66.chunk.js.map",
+    "runtime-main.js": "/social-network-app/static/js/runtime-main.2c2caff4.js",
+    "runtime-main.js.map": "/social-network-app/static/js/runtime-main.2c2caff4.js.map",
+    "static/js/2.1da1e77b.chunk.js": "/social-network-app/static/js/2.1da1e77b.chunk.js",
+    "static/js/2.1da1e77b.chunk.js.map": "/social-network-app/static/js/2.1da1e77b.chunk.js.map",
+    "static/css/3.0f962910.chunk.css": "/social-network-app/static/css/3.0f962910.chunk.css",
+    "static/js/3.89d96c64.chunk.js": "/social-network-app/static/js/3.89d96c64.chunk.js",
+    "static/js/3.89d96c64.chunk.js.map": "/social-network-app/static/js/3.89d96c64.chunk.js.map",
+    "static/css/4.20d84eb0.chunk.css": "/social-network-app/static/css/4.20d84eb0.chunk.css",
+    "static/js/4.865f3b1c.chunk.js": "/social-network-app/static/js/4.865f3b1c.chunk.js",
+    "static/js/4.865f3b1c.chunk.js.map": "/social-network-app/static/js/4.865f3b1c.chunk.js.map",
+    "static/js/5.cd61104d.chunk.js": "/social-network-app/static/js/5.cd61104d.chunk.js",
+    "static/js/5.cd61104d.chunk.js.map": "/social-network-app/static/js/5.cd61104d.chunk.js.map",
     "index.html": "/social-network-app/index.html",
-    "static/css/3.356c5c55.chunk.css.map": "/social-network-app/static/css/3.356c5c55.chunk.css.map",
-    "static/css/4.a7c36d65.chunk.css.map": "/social-network-app/static/css/4.a7c36d65.chunk.css.map",
+    "static/css/3.0f962910.chunk.css.map": "/social-network-app/static/css/3.0f962910.chunk.css.map",
+    "static/css/4.20d84eb0.chunk.css.map": "/social-network-app/static/css/4.20d84eb0.chunk.css.map",
     "static/css/main.29690f7d.chunk.css.map": "/social-network-app/static/css/main.29690f7d.chunk.css.map",
-    "static/js/2.639d2bd0.chunk.js.LICENSE.txt": "/social-network-app/static/js/2.639d2bd0.chunk.js.LICENSE.txt",
+    "static/js/2.1da1e77b.chunk.js.LICENSE.txt": "/social-network-app/static/js/2.1da1e77b.chunk.js.LICENSE.txt",
     "static/media/preloader2.svg.4963b81d.gif": "/social-network-app/static/media/preloader2.svg.4963b81d.gif",
-    "static/media/user.png.418d999c.png": "/social-network-app/static/media/user.png.418d999c.png"
+    "static/media/user.png.png": "/social-network-app/static/media/user.png.418d999c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9746a574.js",
-    "static/js/2.639d2bd0.chunk.js",
+    "static/js/runtime-main.2c2caff4.js",
+    "static/js/2.1da1e77b.chunk.js",
     "static/css/main.29690f7d.chunk.css",
-    "static/js/main.77c1dd41.chunk.js"
+    "static/js/main.6aaffb66.chunk.js"
   ]
 }

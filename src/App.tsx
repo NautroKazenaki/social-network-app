@@ -58,7 +58,7 @@ class App extends Component<MapStatePropsType & DispatchPropsType> {
         <Switch>
         <div className='app-wrapper-content'>
 
-          <Redirect from="/" to="/profile" />
+          {/* <Redirect from="/" to="/profile" /> */}
 
           <Route path='/profile/:userId?' render= {() =><SuspendedProfile />} />
 
@@ -74,7 +74,7 @@ class App extends Component<MapStatePropsType & DispatchPropsType> {
 
           <Route path='/login' render={() => <Login />} />
 
-          {/* <Route path='*' render={() => <div> 404 not found </div>} /> */}
+          {/* <Route path='*' render={() => <div> 404 not found </div>} />  */}
         
 
         </div>
