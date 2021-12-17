@@ -3,3 +3,14 @@ display: grid;
 grid-template-columns: 3fr 9fr;
 padding: 20px;
 }
+.sendMessageButton{
+    color:black;
+    background-color: rgb(68, 134, 254);
+    border: none;
+}
+.sendMessageButton:hover{
+    color:white;
+}
+.newMessageDataForm{
+    color:black
+}

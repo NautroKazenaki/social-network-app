@@ -63,13 +63,13 @@ const Dialogs: React.FC<PropsType> = (props) =>{
 
 const AddMessageForm: React.FC<InjectedFormProps<AddNewMessageFormType>> = (props) => {
     return <form onSubmit={props.handleSubmit}>
-    <div> 
+    <div className={s.newMessageDataForm}> 
         {createField<AddNewMessageFormTypeKeys>("только начни писать", "newMessageText", Textarea, [required, maxlength10], "userName", { className: s.input })}
     </div>
     <div>
-        <button>
-            send
-        </button>
+    <button className={s.sendMessageButton}>
+        send
+    </button> 
     </div>
 </form>
 }

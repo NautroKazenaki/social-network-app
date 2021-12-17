@@ -1,3 +1,19 @@
 .posts{
     padding: 10px;
 }
+.myPostsLabel{
+    color: white
+}
+.addPostButton{
+    color:black;
+    background-color: rgb(68, 134, 254);
+    border: none;
+}
+.newPostTextDataForm{
+    color: black
+}
+.addPostButton:hover{
+    color:white;
+    background-color: rgb(68, 134, 254);
+    border: none;
+}

@@ -14,29 +14,29 @@ const ProfileDataForm: React.FC<InjectedFormProps<ProfileType, OwnPropsType > & 
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                <button>
+                <button className={s.profileDataSaveButton}>
                     save
                 </button>
             </div>
             {error && <div className={s.formSummaryError}>
                 {error}
             </div>}
-            <div>
-                <b>FullName:</b> {createField<ProfileTypeKeys>("FullName", "fullName", Input, [],)}
+            <div className={s.profileInputDataForm}>
+                <b className={s.profileDataLabel}>FullName:</b> {createField<ProfileTypeKeys>("FullName", "fullName", Input, [],)}
             </div>
-            <div>
-                <b>Looking for a job:</b> {createField<ProfileTypeKeys>("", "lookingForAJob", Input, [], "checkbox")}
+            <div className={s.profileInputDataForm}>
+                <b className={s.profileDataLabel}>Looking for a job:</b> {createField<ProfileTypeKeys>("", "lookingForAJob", Input, [], "checkbox")}
             </div>
-            <div>
-                <b>My hardskills:</b> {createField<ProfileTypeKeys>("", "lookingForAJobDescription", Textarea, [])}
+            <div className={s.profileInputDataForm}>
+                <b className={s.profileDataLabel}>My hardskills:</b> {createField<ProfileTypeKeys>("", "lookingForAJobDescription", Textarea, [])}
             </div>
-            <div>
-                <b>About me:</b> {createField<ProfileTypeKeys>("", "aboutMe", Textarea, [])}
+            <div className={s.profileInputDataForm}>
+                <b className={s.profileDataLabel}>About me:</b> {createField<ProfileTypeKeys>("", "aboutMe", Textarea, [])}
             </div>
-            { <div>
-                <b>Contacts:</b>{Object.keys(profile.contacts).map(key => {
+            { <div className={s.profileInputDataForm}>
+                <b className={s.profileDataLabel}>Contacts:</b>{Object.keys(profile.contacts).map(key => {
                     return <div key={key} className={s.contact}> 
-                        <b>{key}:</b> {createField(key, "contacts." + key, Input, [],)} 
+                        <b className={s.profileDataLabel}>{key}:</b> {createField(key, "contacts." + key, Input, [],)} 
                     </div>
                 })}
             </div> }

@@ -5,6 +5,7 @@ import { Field, InjectedFormProps, reduxForm } from 'redux-form';
 import {required, maxLengthCreator} from '../../../utils/validators/validators'
 import { createField, GetStringKeys, Textarea } from '../../Common/FormsControl/FormsControl';
 import { PostType } from '../../../types/types';
+import { Button } from 'antd';
 
 const maxLength10 = maxLengthCreator(10)
 
@@ -25,7 +26,7 @@ const Posts:React.FC<MapStatePropsType & MapDispatchPropsType > = props => {
 
     return (
         <div className={s.posts}>
-            <h3>my posts </h3>
+            <h3 className={s.myPostsLabel}>my posts </h3>
             <NewPostReduxForm onSubmit={addNewPost} />
             {postsElements}
         </div>
@@ -46,12 +47,13 @@ type NewPostFormValuesTypeKeys = GetStringKeys<NewPostFormValuesType>
 
 const NewPostForm: React.FC<InjectedFormProps<NewPostFormValuesType, OwnPropsType > & OwnPropsType> = (props) => {
     return <form onSubmit={props.handleSubmit}>
-        <div>
+        <div className={s.newPostTextDataForm}>
             {createField<NewPostFormValuesTypeKeys>("start to write a new post", "newPostText", Textarea, [required, maxLength10], "", { className: s.input })}
         </div>
 
         <div>
-            <button >Add post</button>
+            {/* <Button type="primary"className={s.addPostButton}> Add post</Button> */}
+             <button className={s.addPostButton} >Add post</button> 
         </div>
     </form>
 }

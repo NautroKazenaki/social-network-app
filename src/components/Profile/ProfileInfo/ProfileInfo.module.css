@@ -13,3 +13,24 @@
     color: red;
     text-align: justify;
 }
+.editButton{
+    color: black
+}
+.inputForm{
+    color: white
+}
+.profileDataSaveButton{
+    color: black
+}
+.profileInputDataForm{
+    color: black
+}
+.profileDataLabel{
+    color: white
+}
+.photoFileInput{
+    display:block;
+    margin: 0;
+    padding: 0;
+    width: 120px
+}

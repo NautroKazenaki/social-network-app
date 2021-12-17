@@ -1,4 +1,5 @@
 import React, { ChangeEvent, useEffect, useState } from 'react'
+import s from './ProfileStatusWithHooks.module.css'
 
 type OwnPropsType = {
     status: string
@@ -39,7 +40,7 @@ const ProfileStatusWithHooks: React.FC<OwnPropsType> = (props) => {
                 </div>
             }
             {editMode &&
-                <div>
+                <div className={s.statusDataForm}>
                     <input onChange={onStatusChange} autoFocus={true} onBlur={deactivateEditMode} value={status} />
                 </div>
             }
