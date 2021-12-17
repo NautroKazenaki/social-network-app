@@ -28,7 +28,6 @@ export const Users: React.FC<PropsType> = (props) => {
         // const params = new URLSearchParams(search)
         // const parsedTerm = params.get("term")
         const parsed = queryString.parse(history.location.search.substr(1)) as QueryParamsType
-        debugger
         let actualPage = page
         let actualFilter = filter
         if (!!parsed.page) actualPage = Number(parsed.page)
